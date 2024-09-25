@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 st.header("Wholesale Customer Data")
-data=pd.read_csv('/workspaces/channelsales/mentornow/Wholesale_customers_data.csv')
+data=pd.read_csv('Wholesale_customers_data.csv')
 with st.expander('Show Data'):
     st.dataframe(data)
 
